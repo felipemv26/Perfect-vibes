@@ -10,9 +10,6 @@ include __DIR__ . '/../vistas/plantillas/header.php';  // Incluir el archivo hea
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hacer que el diseño sea responsivo -->
     <title><?php echo $titulo; ?></title> <!-- Mostrar el título definido anteriormente -->
     
-    <!-- Vincular Bootstrap desde CDN para estilos -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    
     <style>
         /* Estilo personalizado para la sección "Nosotros" */
         .nosotros-section {
